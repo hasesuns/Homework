@@ -1,5 +1,5 @@
 # PythonRobotics
-https://travis-ci.org/hasesuns/PythonRobotics.svg?branch=master
+[![Build Status](https://travis-ci.org/hasesuns/PythonRobotics.svg?branch=master)](https://travis-ci.org/hasesuns/PythonRobotics)
 Python codes of Robotics for study
 
 # Requirements

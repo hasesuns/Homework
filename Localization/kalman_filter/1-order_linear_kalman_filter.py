@@ -5,6 +5,8 @@
 # Author : Akiyuki Beauduin, University of Tokyo, 2018
 ######################################################
 
+import sys # For comandline input
+
 def update(mean1, var1, mean2, var2):
     new_mean = float(var2 * mean1 + var1 * mean2) / (var1 + var2)
     new_var = 1./(1./var1 + 1./var2)
@@ -34,4 +36,9 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    args = sys.argv
+
+    if len(args) == 1:
+        main()
+    elif args[1] == '-v':
+        print('1-order linear kalman filter 1.0.0')

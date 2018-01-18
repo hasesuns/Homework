@@ -1,11 +1,12 @@
 ######################################################
-# 1-order linear kalman filter
+# 1-dim linear kalman filter
 # ----------------------------
 # Descr. : Most simplest Kalman filter
 # Author : Akiyuki Beauduin, University of Tokyo, 2018
 ######################################################
 
-import sys # For comandline input
+import sys      # For comandline input
+import unittest # For Unit Test
 
 def update(mean1, var1, mean2, var2):
     new_mean = float(var2 * mean1 + var1 * mean2) / (var1 + var2)
@@ -41,4 +42,4 @@ if __name__ == '__main__':
     if len(args) == 1:
         main()
     elif args[1] == '-v':
-        print('1-order linear kalman filter 1.0.0')
+        print('1-dim linear kalman filter 1.0.0')

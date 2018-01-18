@@ -11,7 +11,7 @@ Python codes of Robotics for study
 ## Particle Filter 
 
 # Author
-Akiyuki Hasegawa (@hase.eeic)
+Akiyuki Hasegawa ([@hase.eeic](https://twitter.com/has_eeic))
 
 # Lisence
 MIT

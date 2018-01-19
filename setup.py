@@ -25,7 +25,7 @@ setup(
     ],
     entry_points={
         'console_scripts':[
-        'olkalmanflt = Localization.kalman_filter.one_dim_linear_kalman_filter:.main',
+        'olkalmanflt = Localization.kalman_filter.one_dim_linear_kalman_filter:main',
         ],
     },
 )

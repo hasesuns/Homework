@@ -23,4 +23,10 @@ class Test(TestCase):
         self.assertEqual(expected, actual)
 
     def test_main(self):
-        m.main()
+        self.measured_pos = [0., 1.2, 2.3, 4.1, 3.0, 6.1]
+        self.motionref_vel = [1., 1., 2., -1., 3., 3.]
+        self.mu = 0.                     # initial value of mu
+        self.sig = 10000.                # initial value of sig
+        self.measurement_sig = 4.
+        self.motion_sig = 2.
+        m.kalman_filter(self)

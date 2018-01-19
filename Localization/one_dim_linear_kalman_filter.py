@@ -20,6 +20,7 @@ class Parameters(object):
     def set_sigma(self, msr_sig, mtn_sig):
         self.measurement_sig = msr_sig
         self.motion_sig = mtn_sig
+        return [self.measurement_sig, self.motion_sig]
 
 def update(mean1, var1, mean2, var2):
     new_mean = float(var2 * mean1 + var1 * mean2) / (var1 + var2)

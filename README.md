@@ -7,9 +7,25 @@ Python codes of Robotics for study
 
 # Install
 
-# Localization
+1. Clone or download this repository "PythonRobotics".
 
-## Particle Filter 
+2. Run the following code 
+
+````
+    $ pip install dist_for_homework/olkalmanflt-1.0-py3-none-any.whl
+````
+   or
+````
+    $ pip install dist_for_homework/olkalmanflt-1.0.tar.gz
+````
+
+# How to use
+
+Run the following code
+````
+    $ olkalmanflt
+````
+Result of 1-older liner Kalman filter simulation is shown. 
 
 # Author
 Akiyuki Hasegawa ([@has_eeic](https://twitter.com/has_eeic))

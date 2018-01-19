@@ -26,7 +26,7 @@ Run the following code
 ````
     $ olkalmanflt
 ````
-Result of 1-older liner Kalman filter simulation is shown. 
+The result of 1-older liner Kalman filter simulation is shown below
 
 ````
 -----------------------------------------------------------------
@@ -52,7 +52,9 @@ update [ 5 ] :  6.089      2.001
 predict[ 5 ] :  9.089      4.001
 ````
 
-The results when measurement_sig is 10 and motion_sig = 1 are shown below
+## option
+measurement_sig and motion_sig can be set to arbitrary values.
+The result when measurement_sig is 10 and motion_sig = 1 is shown below
 
 ````
     $ olkalmanflt 10 1

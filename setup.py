@@ -2,6 +2,7 @@ from setuptools import setup, find_packages
 
 __author__ = 'Akiyuki Hasegawa'
 
+
 setup(
     name='olkalmanflt',
     version='1.0',
@@ -25,7 +26,7 @@ setup(
     ],
     entry_points={
         'console_scripts':[
-        'olkalmanflt = Localization.kalman_filter.one_dim_linear_kalman_filter:main',
+        'olkalmanflt = Localization.one_dim_linear_kalman_filter:main',
         ],
     },
 )

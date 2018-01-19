@@ -1,10 +1,6 @@
 from unittest import TestCase
 
-# Add to path if you need
-import sys
-sys.path.append("./Localization/kalman_filter/")
-
-from Localization.kalman_filter import one_dim_linear_kalman_filter as m
+from Localization import one_dim_linear_kalman_filter as m
 
 class Test(TestCase):
 

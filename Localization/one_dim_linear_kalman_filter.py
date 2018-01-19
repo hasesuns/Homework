@@ -65,8 +65,7 @@ def kalman_filter(parameters):
         [mu, sig] = predict(mu, sig, motionref_vel[i], motion_sig)
         print('predict[',i,']',':',' %03.3f     ' % mu ,'%03.3f' % sig)
 
-
-if __name__ == '__main__':
+def main():
     args = sys.argv
 
     if len(args) == 1:
@@ -77,7 +76,9 @@ if __name__ == '__main__':
         my_paras.set_sigma(float(args[1]), float(args[2]))
         kalman_filter(my_paras)
     elif args[1] == '-v':
-        print('1-dim linear kalman filter 1.0.0')
-
+        print('1-dim linear kalman filter 1.0')
     else:
         print('error')
+
+if __name__ == '__main__':
+    main()

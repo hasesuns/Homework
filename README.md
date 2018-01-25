@@ -8,7 +8,7 @@ Python codes of Robotics for homework
 
 # Install
 
-1. Download the latest version release 'olkalmanflt-1.0-py3-none-any.whl'
+1. Download the latest release version 'olkalmanflt-1.0-py3-none-any.whl'
 
 2. Run the following code 
 

@@ -8,16 +8,12 @@ Python codes of Robotics for homework
 
 # Install
 
-1. Clone or download this repository "PythonRobotics".
+1. Download the latest version release 'olkalmanflt-1.0-py3-none-any.whl'
 
 2. Run the following code 
 
 ````
-    $ pip install dist_for_homework/olkalmanflt-1.0-py3-none-any.whl
-````
-   or
-````
-    $ pip install dist_for_homework/olkalmanflt-1.0.tar.gz
+    $ pip install olkalmanflt-1.0-py3-none-any.whl
 ````
 
 # How to use

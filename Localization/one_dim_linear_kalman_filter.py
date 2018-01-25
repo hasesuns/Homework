@@ -77,6 +77,8 @@ def main():
         kalman_filter(my_paras)
     elif args[1] == '-v':
         print('1-dim linear kalman filter 1.0')
+    elif args[1] =='-p':
+        print('change for pull request')
     else:
         print('error')
 

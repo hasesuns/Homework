@@ -1,7 +1,7 @@
-# PythonRobotics
-[![Build Status](https://travis-ci.org/hasesuns/PythonRobotics.svg?branch=master)](https://travis-ci.org/hasesuns/PythonRobotics)
+# 1-order liner Kalman Filter simulation (Homework)
+[![Build Status](https://travis-ci.org/hasesuns/PythonRobotics.svg?branch=master)](https://travis-ci.org/hasesuns/Homework)
 
-Python codes of Robotics for homework
+Python codes of 1-order liner Kalman Filter for homework
 
 # Requirements
 - Python 3.x
